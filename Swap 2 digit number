@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+    {
+    int a;
+    scanf("%d", &a);
+    if(a>9)
+        {
+        while (a>100)
+            a=a/10;
+        int s=a%10;
+        int f=a/10;
+        printf("%d%d",s,f);
+        }
+    else
+        {
+        printf("STDOUT");
+        }
+    return 0;
+    }
+        
